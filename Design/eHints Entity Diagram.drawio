@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T10:03:37.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="WYKxkGL3T-px8vFEXXCs" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T10:05:01.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xLerAjbwW-jiQEUV1yjC" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fe_BYmUYgj0JbZ3PcuZU-94" value="Visit" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="440" width="180" height="420" as="geometry" />
+          <mxGeometry x="40" y="440" width="180" height="420" as="geometry" />
         </mxCell>
         <mxCell id="fe_BYmUYgj0JbZ3PcuZU-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="fe_BYmUYgj0JbZ3PcuZU-94">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -104,7 +104,7 @@
         <mxCell id="fe_BYmUYgj0JbZ3PcuZU-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="fe_BYmUYgj0JbZ3PcuZU-94">
           <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fe_BYmUYgj0JbZ3PcuZU-99" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="fe_BYmUYgj0JbZ3PcuZU-98">
+        <mxCell id="fe_BYmUYgj0JbZ3PcuZU-99" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="fe_BYmUYgj0JbZ3PcuZU-98">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -534,6 +534,12 @@
         <mxCell id="fe_BYmUYgj0JbZ3PcuZU-299" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: top; word-break: normal;&quot;&gt;Diagnosis Record Type Code&lt;/p&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="fe_BYmUYgj0JbZ3PcuZU-297">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe_BYmUYgj0JbZ3PcuZU-300" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="fe_BYmUYgj0JbZ3PcuZU-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="580" as="sourcePoint" />
+            <mxPoint x="40" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
